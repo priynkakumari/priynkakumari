@@ -1,0 +1,46 @@
+[
+  {
+    "id": "001",
+    "title": "GitPeek",
+    "titleLines": ["Git", "Peek"],
+    "tags": "React / Modern Layout / GitHub API",
+    "description": "A React Webapp powered by GitHub API to fetch userdata into pre-designed cards, to select and download.",
+    "url": "https://git-peek-ktic6200f-prynkaguptas-projects.vercel.app/",
+    "image": "./git-proj.png",
+    "alt": "GitPeek",
+    "reverse": false
+  },
+  {
+    "id": "002",
+    "title": "TheCoffee Soul",
+    "titleLines": ["TheCoffee", "Soul"],
+    "tags": "Responsive Design / Landing / Interaction",
+    "description": "Responsive landing page for a local cafe. Built with HTML, CSS, JS. Improved load time and mobile usability.",
+    "url": "https://priynkakumari.github.io/works/thecoffeesoul/",
+    "image": "./tcs-proj.png",
+    "alt": "TheCoffee Soul",
+    "reverse": true
+  },
+  {
+    "id": "003",
+    "title": "TheJain Outlet",
+    "titleLines": ["TheJain", "Outlet"],
+    "tags": "JavaScript / Responsive / Landing",
+    "description": "A landing page for a beautiful restaurant in India. Built with HTML, CSS, JS. Focused on aesthetics and user experience.",
+    "url": "https://priynkakumari.github.io/works/thejainoutlet/",
+    "image": "./tjo-proj.jpg",
+    "alt": "TheJain Outlet",
+    "reverse": false
+  },
+  {
+    "id": "004",
+    "title": "Prix Engine",
+    "titleLines": ["Prix", "Engine"],
+    "tags": "Image Search Engine / Unsplash API / Real-time",
+    "description": "A lightning-fast Unsplash-powered image search engine. Built for creators who don't wait.",
+    "url": "https://priynkakumari.github.io/works/prixengine/",
+    "image": "./pe-proj.png",
+    "alt": "Prix Engine",
+    "reverse": true
+  }
+]

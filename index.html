@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priyanka Gupta |Frontend Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="noise"></div>
+    <div id="cursor"></div>
+    <div id="cursor-follower"></div>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero container">
+        <div class="hero-bg"></div>
+        <header>
+          <h1 class="huge-text char-anim">Priyanka<br /><i>Gupta</i></h1>
+        </header>
+        <div class="hero-sub fade-in-up">
+          <span class="mono">( Introduction )</span>
+          <p>
+            I design interfaces and build soft systems. I believe digital tools
+            should feel as calm and natural as physical objects.
+          </p>
+          <div class="mono" style="margin-top: 2rem; opacity: 0.4">
+            &darr; Scroll to explore
+          </div>
+        </div>
+      </section>
+
+      <!-- IDENTITY -->
+      <section class="identity container">
+        <div class="identity-row">
+          <h2 class="mono">The Frontend Engineer</h2>
+          <p class="id-text">
+            I bridge design and code to build thoughtful digital experiences. I
+            think in systems, intentional whitespace, and fluid interactions,
+            writing clean semantic HTML, CSS, and JavaScript that brings ideas
+            to life without unnecessary weight.
+          </p>
+        </div>
+      </section>
+
+      <!-- WORKS -->
+      <section class="projects container" id="work">
+        <h2 class="big-text">Selected<br />Works</h2>
+        <span class="mono">( 2025 &mdash; Present )</span>
+
+        <div class="projects-list" id="projects-list"></div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about container" id="about">
+        <div class="about-layout">
+          <div class="about-sticky-side">
+            <h2 class="huge-text" style="font-size: clamp(3rem, 7vw, 7rem)">
+              Refining<br /><i>Chaos</i>
+            </h2>
+          </div>
+          <div class="about-scroll-side">
+            <div class="about-bio">
+              <h3 class="serif bio-text">
+                I’m Priyanka, a frontend engineer bridging thoughtful design
+                with interactive code.
+              </h3>
+              <p class="bio-sub">
+                I believe digital experiences should feel as calm and natural as
+                physical objects. I work with startups to build their digital
+                presence from the ground up, with a focus on performance,
+                accessibility, and typographic nuance.
+              </p>
+            </div>
+            <!-- 
+                    <div class="about-image-block">
+                        <img src="./pu.jpg" alt="Workspace">
+                        <div class="badge-container">
+                            <svg viewBox="0 0 100 100" width="100" height="100">
+                                <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent" />
+                                <text font-family="Space Mono" font-size="8" letter-spacing="2">
+                                    <textPath xlink:href="#circlePath">DESIGNER • DEVELOPER • DESIGNER • DEVELOPER •</textPath>
+                                </text>
+                            </svg>
+                        </div>
+                    </div> -->
+
+            <div class="about-services">
+              <span class="mono">Expertise</span>
+              <ul class="service-list">
+                <li><span class="s-num">01</span> Interface Design</li>
+                <li><span class="s-num">02</span> Frontend Development</li>
+                <li><span class="s-num">03</span> Design Systems</li>
+                <li><span class="s-num">04</span> Interaction & Motion</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-top">
+        <h2 class="footer-headline serif">
+          Let's build<br /><i>something new.</i>
+        </h2>
+        <a
+          href="mailto:priyanka2002.pkg@gmail.com"
+          class="footer-email-large link-underline"
+          >priyanka2002.pkg@gmail.com</a
+        >
+      </div>
+
+      <div class="footer-meta">
+        <div class="footer-col">
+          <span class="mono">Navigation</span>
+          <ul class="footer-list">
+            <li><a href="#main">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <span class="mono">Socials</span>
+          <ul class="footer-list">
+            <li>
+              <a href="https://www.linkedin.com/in/priynkakumari/">LinkedIn</a>
+            </li>
+            <!-- <li><a href="#">Twitter</a></li> -->
+            <li><a href="https://github.com/priynkakumari">GitHub</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <span class="mono">Location</span>
+          <p style="opacity: 0.8; font-size: 1.1rem">
+            Delhi, India<br />Available Worldwide
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span class="mono">© 2025 Priyanka Gupta</span>
+        <span class="mono">Designed & Coded with Care</span>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
